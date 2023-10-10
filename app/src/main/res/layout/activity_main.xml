@@ -23,8 +23,9 @@
         android:layout_marginTop="60dp"
         android:onClick="ChangeMainTextTxt"
         android:text="ChangeText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/MainText"
-        tools:layout_editor_absoluteX="143dp"
         tools:ignore="MissingConstraints" />
 
     <Button
@@ -32,10 +33,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="116dp"
-        android:text="ChangeTextColor"
         android:onClick="ChangeMainTextColor"
+        android:text="ChangeTextColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/MainText"
-        tools:layout_editor_absoluteX="126dp"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
