@@ -37,6 +37,5 @@ public class MainActivity extends AppCompatActivity {
         }
         textColorChanged = !textColorChanged;
         Toast.makeText(this, "Color Has Changed", Toast.LENGTH_SHORT).show();
-        Toast.makeText(this, "Some message", Toast.LENGTH_SHORT).show();
     }
 }
